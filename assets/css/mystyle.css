@@ -1,0 +1,522 @@
+/* CSS Design */
+
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    min-width: 1225px;
+}
+
+
+/* Upper Header */
+
+.upper-header {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color: #415161;
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+
+
+/* Nav */
+
+.nav {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: darkgrey;
+    -webkit-transition: all 0.3s ease;
+    /* Safari and Chrome */
+    -moz-transition: all 0.3s ease;
+    /* Firefox */
+    -o-transition: all 0.3s ease;
+    /* IE 9 */
+    -ms-transition: all 0.3s ease;
+    /* Opera */
+    transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    color: #415161;
+}
+
+
+/* Lower Header */
+
+.home-lower-header {
+    width: 100%;
+    height: 350px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    background-color: #f9fafb;
+}
+
+.home-lower-header h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #415161;
+    font-size: 2em;
+    font-family: sans-serif;
+    top: 20%;
+    position: relative;
+}
+
+.home-lower-header p {
+    width: 50%;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-family: sans-serif;
+    color: #8496b3;
+}
+
+.home-lower-header a {
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    height: 50px;
+    background-color: #415161;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+    display: block;
+    position: relative;
+    border: 1px black solid;
+    -webkit-transition: all 0.7s ease;
+    /* Safari and Chrome */
+    -moz-transition: all 0.7s ease;
+    /* Firefox */
+    -o-transition: all 0.7s ease;
+    /* IE 9 */
+    -ms-transition: all 0.7s ease;
+    /* Opera */
+    transition: all 0.7s ease;
+}
+
+.home-lower-header div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.home-lower-header a:hover {
+    background-color: white;
+    color: #415161;
+}
+
+
+/* Home Body */
+
+#home-img {
+    background-image: url("../img/sample-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.home-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 300px;
+    font-family: sans-serif;
+}
+
+.home-content h2 {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #415161;
+}
+
+.home-content div {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.home-content p {
+    padding: 10px;
+    line-height: 30px;
+    color: #415161;
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+.footer {
+    height: 30px;
+    background-color: #f9fafb;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #415161;
+}
+
+.footer p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+
+/*About Page*/
+
+.about-lower-header {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 75%;
+}
+
+.about-content1 {
+    width: 90%;
+    height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #415161;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.about-content1 div:nth-of-type(1) {
+    width: 50%;
+    height: 420px;
+    /*
+    background-image: url("../img/profile.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -416px;
+    transform: rotate(180deg); */
+    float: left;
+    margin-top: 50px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.about-content1 img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.about-content1 div:nth-of-type(2) {
+    width: 45%;
+    height: 400px;
+    margin-top: 50px;
+    float: right;
+}
+
+.about-content1 div:nth-of-type(2) h2 {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about-content1 div:nth-of-type(2) p {
+    line-height: 30px;
+}
+
+.about-content2 {
+    width: 90%;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #415161;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-content2 div {
+    margin-bottom: 40px;
+}
+
+.about-content2 h2 {
+    width: 20%;
+    float: left;
+    text-align: left;
+    font-size: 2em;
+}
+
+.about-content2 div:nth-of-type(1) h2 {
+    height: 280px;
+}
+
+.about-content2 p {
+    width: 100%;
+    line-height: 30px;
+    text-align: left;
+}
+
+.about-content2 li {
+    line-height: 30px;
+    list-style-type: square;
+}
+
+
+/* Resume Page */
+
+.resume-lower-header {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/office.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 39%;
+}
+
+#resume {
+    background-image: url("../img/Resume1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 565px;
+    height: 800px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#resume a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+}
+
+
+/* Gallery Page */
+
+
+/* Capstone Page */
+
+.capstone-header h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #415161;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Contact Page */
+
+.contact-header {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 55%;
+}
+
+.contact-content {
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 90%;
+    display: block;
+    overflow: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    color: #415161;
+}
+
+.contact-left-column {
+    width: 60%;
+    float: left;
+}
+
+.contact-left-column h2 {
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+
+.contact-left-column p {
+    line-height: 30px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.location {
+    width: 90%;
+    height: 300px;
+    background-image: url("../img/location.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-right-column {
+    width: 40%;
+    float: right;
+}
+
+.contact-right-column h2:nth-of-type(2n+0) {
+    margin-bottom: 70px;
+}
+
+.contact-right-column h2:nth-of-type(2n+1) {
+    margin-bottom: 20px;
+    font-size: .9em;
+}
+
+
+/* Gallery Page */
+
+.gallery-content {
+    width: 90%;
+    display: block;
+    overflow: auto;
+    font-family: sans-serif;
+    color: #415161;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-info {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.gallery-info h2 {
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.gallery-text {
+    width: 50%;
+    float: right;
+}
+
+.gallery-text p {
+    margin-left: 30px;
+    line-height: 20px;
+}
+
+.gallery-img {
+    width: 48%;
+    height: 400px;
+    float: left;
+    border: 2px #415161 solid;
+}
+
+.gallery-nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery-nav li {
+    display: inline-block;
+}
+
+.gallery-nav a {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #415161;
+}
+
+
+/* Achievements Page */
+
+.achievements-content {
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 90%;
+    display: block;
+    overflow: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    color: #415161;
+    text-align: center;
+}
+
+.a-img {
+    width: 90%;
+    height: 820px;
+    display: block;
+    overflow: auto;
+    border: 2px solid #415161;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#a-img1 {
+    background-image: url("../img/photoshop-certificate.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#a-img2 {
+    background-image: url("../img/flash-certificate.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#a-img3 {
+    background-image: url("../img/straightas.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
